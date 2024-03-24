@@ -1,4 +1,4 @@
-import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin, IconMail } from "@tabler/icons-react";
+import { IconBrandTelegram, IconBrandInstagram, IconMail } from "@tabler/icons-react";
 
 const ContactUs = () => {
   return (
@@ -6,8 +6,7 @@ const ContactUs = () => {
       <div className="ml-5">
         <h1 className="text-2xl font-extrabold">Let's Talk</h1>
         <p className="text-sm text-gray-400 mt-3">
-          Have some big idea or brand to develop and need help? Then reach out
-          we'd love to hear about your project and provide help.
+          If you are a company looking to grow your sales or an sales expert looking to showcase your skills in the feild, feel free to contact us anytime!
         </p>
         <div className="mt-12">
           <h2 className="text-lg font-extrabold">Email</h2>
@@ -30,19 +29,12 @@ const ContactUs = () => {
           <h2 className="text-lg font-extrabold">Socials</h2>
           <ul className="flex mt-3 space-x-4">
             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-              <a href="#">
-              <IconBrandFacebook color="#f5d480" />
-
+              <a href="https://t.me/virtuouspromotions">
+              <IconBrandTelegram color="#f5d480" />
               </a>
             </li>
             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-              <a href="#">
-              <IconBrandLinkedin  color="#f5d480" />
-
-              </a>
-            </li>
-            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-              <a href="#">
+              <a href="https://www.instagram.com/virtuouspromotions">
                 <IconBrandInstagram color="#f5d480" />
               </a>
             </li>
